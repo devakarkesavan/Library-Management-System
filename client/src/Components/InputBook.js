@@ -77,25 +77,3 @@ const InputBook = () => {
 };
 
 export default InputBook;
-{/* <td><EditBook book={book} /></td> */}
-                            {/* <td>
-                                <button
-                                    className="btn btn-danger"
-                                    onClick={() => deleteBook(book.id)}
-                                >
-                                    Delete
-                                </button>
-                            </td> */}
-// Delete book
-    // const deleteBook = async id => {
-    //     try {
-    //         await fetch(`http://localhost:5000/Book/${id}`, {
-    //             method: "DELETE"
-    //         });
-    //         getBooks(); // Refresh the list after deletion
-    //     } catch (error) {
-    //         console.error(error.message);
-    //     }
-    // };
-
-    // Fetch all books
