@@ -10,7 +10,7 @@ function App() {
         <div className='container'>
         <h1 className="text-center text-info">Library Management System</h1>
           <Routes>
-            <Route exact path="/Book" element={<ListBooks />} />
+            <Route exact path="/" element={<ListBooks />} />
             <Route path="/InputBook" element={<InputBook />} />
           </Routes>
         </div>
