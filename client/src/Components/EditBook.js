@@ -12,7 +12,7 @@ const EditBook = ({ book }) => {
 
     const updateBook = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/Book/${book.id}`, {
+            const response = await fetch(`https://library-management-system-9vhg.onrender.com/book${book.id}`, {
                 method: "PUT",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(editedBook)

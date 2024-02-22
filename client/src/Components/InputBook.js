@@ -14,7 +14,7 @@ const InputBook = () => {
         e.preventDefault();
         try {
             const body = JSON.stringify(book);
-            const response = await fetch("http://localhost:5000/Book", {
+            const response = await fetch("https://library-management-system-9vhg.onrender.com/book", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body

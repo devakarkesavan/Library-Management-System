@@ -12,7 +12,7 @@ const ListBooks = () => {
     // Fetch all books
     const getBooks = async () => {
         try {
-            const response = await axios.get("http://localhost:5000/Book");
+            const response = await axios.get("https://library-management-system-9vhg.onrender.com/book");
             setBooks(response.data);
         } catch (error) {
             console.error(error.message);
